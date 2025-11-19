@@ -1,0 +1,14 @@
+{
+  "name": "smart-campus-backend",
+  "version": "1.0.0",
+  "description": "Smart Campus backend - simulator + decision brain (Node.js + Express + Socket.IO)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}

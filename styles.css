@@ -1,0 +1,51 @@
+:root {
+    --bg: #f4f7fb;
+    --card: #fff;
+    --muted: #6b7280
+}
+
+body {
+    font-family: Inter, Arial, sans-serif;
+    background: var(--bg);
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0 0 12px 0;
+    font-size: 20px
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 320px;
+    gap: 16px
+}
+
+.card {
+    background: var(--card);
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06)
+}
+
+.alerts {
+    max-height: 360px;
+    overflow: auto
+}
+
+.controls {
+    margin-top: 12px
+}
+
+#alerts div {
+    border-bottom: 1px solid #eee;
+    padding: 8px 0
+}
+
+button {
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff
+}
